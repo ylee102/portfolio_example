@@ -1,0 +1,33 @@
+* {
+    color: red;
+}
+li {
+    color: pink;
+}
+#special {
+    color: greenyellow;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    padding: 20px 0px;
+    margin: 10px;
+    border-width:2px;
+    border-style: solid;
+    border-color:black;
+}
+button:hover {
+    color:cadetblue;
+}
+/* ^="naver"->naver로 시작하는애들만
+$=".com"->.com으로 끝나는 애들만. */
+a[href^="naver"] {
+    color: purple;
+}
+/* Ctrl+Shift+I 는 개발자 도구 연다.*/
+/* universal type:*
+ID: #
+Class: .class
+State: :
+Attribute: [] */
